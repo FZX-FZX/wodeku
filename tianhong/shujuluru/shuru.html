@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<style type="text/css">
+		#from{
+			border: 2px solid red;
+			margin: 50px auto;
+			width: 400px;
+			padding: 20px;
+			background: brown;
+		}
+	</style>
+	<body>
+		<form id="from" action="shuju.php" method="post">
+			图片路径：<input type="text" name="img" value=""/><br>
+			商品信息：<input type="text" name="uname" value=""/><br>
+			原价格：<input type="text" name="cbs" value=""/><br>
+			现价格：<input type="text" name="cbrq" value=""/><br>
+			积分：<input type="text" name="price" value=""/><br>
+			重量：<input type="text" name="kg" value=""/><br>
+			<input type="submit" value="添加入数据库"/>
+		</form>
+	</body>
+</html>
