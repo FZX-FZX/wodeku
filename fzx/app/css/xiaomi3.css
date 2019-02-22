@@ -1,0 +1,28 @@
+.swiper-container{
+    width:710px;
+    height:600px;
+}
+.swiper-slide{
+    width: 710px;
+    margin: 0 auto;
+}
+.swiper-container .swiper-slide img{
+    width:710px;
+    height: 319px;
+    margin: 0 auto;
+}
+.swiper-container ul li{
+    width: 710px;
+    height:600px;
+}
+.swiper-container p{
+    text-align: center;
+    color: #000;
+    font-size: 20px;
+}
+.swiper-container .swiper-slide ul li .zt img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    display: block;
+}

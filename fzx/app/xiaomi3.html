@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>第一题</title>
+    <link rel="stylesheet" href="../app/css/xiaomi3.css">
+    <link rel="stylesheet" href="../app/css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/css/swiper.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* .swiper-container {
+            width: 670px;
+            height: 240px;
+        } */
+
+        .a {
+            background: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="swiper-container" id="box">
+        <div class="swiper-wrapper">
+            <div>
+                <ul class="swiper-slide">
+                    <P>|<span>逼抢清单</span></P>
+                    <li>
+                        <img src="../app/images/1.jpg" alt="">
+                        <p>奔跑在绿茵场，防滑球鞋脚上穿少电视前的球迷，都希望自己可以亲自站在绿菌场上踢脚。但是没有专业的球鞋可是十分危险的，球场上那…</p>
+                        <div class="zt">
+                            <a href="#"><img src="../app/images/3.jpg" /></a>
+                            <a><img src="../app/images/4.jpg" /></a>
+                            <a><img src="../app/images/5.jpg" /></a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="../app/images/2.jpg" alt="">
+                        <p>奔跑在绿茵场，防滑球鞋脚上穿少电视前的球迷，都希望自己可以亲自站在绿菌场上踢脚。但是没有专业的球鞋可是十分危险的，球场上那…</p>
+                    </li>
+                </ul>
+
+
+            </div>
+            <div class="swiper-slide"><img src="../app/images/2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="../app/images/3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="../app/images/4.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="../app/images/5.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="../app/images/6.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="../app/images/7.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="../app/images/8.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="../app/images/9.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="../app/images/10.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="../app/images/11.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="../app/images/12.jpg" alt=""></div>
+
+        </div>
+        <div class="swiper-button-prev"></div>
+        <!--左箭头-->
+        <div class="swiper-button-next"></div>
+        <!--右箭头-->
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/js/swiper.min.js"></script>
+    <script src="../app/js/swiper2.0.js"></script>
+    <script src="../app/js/jquery.js"></script>
+    <script>
+        var swiper = new Swiper('#box', {
+            loop: true,
+            autoplay: true,
+            effect: 'fade',
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            }
+        });
+    </script>
+</body>
+
+</html>

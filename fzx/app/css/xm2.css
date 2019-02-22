@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;
+padding:0;}
+a{text-decoration:none;}
+.pbj{width:1200px;
+	/*height:600px;*/
+	background:#ffffff;
+	margin:20px auto;
+	border-top:1px #cccccc solid;
+	border-left:1px #cccccc solid;
+	overflow:hidden;
+	}
+.pbj dl{width:200px;
+		border-right:1px solid #cccccc;
+		border-bottom:1px solid #cccccc;
+		float:left;
+		position: relative;
+		left: 0;
+		bottom: 0;
+	}
+.pbj dl dt{width:200px;
+			height:200px;
+			border-bottom:1px solid #cccccc;
+			text-align:center;}
+.pbj dl p{
+	position: absolute;
+	height: 50px;
+	line-height: 50px;
+	width: 200px;
+	transition: .8s;
+	left:0;
+    right: 0;
+    bottom: -30px;
+	
+}
+.pbj dl:hover p{
+	background:orange;
+    height:50px;
+    left:0;
+    right: 0;
+	bottom: 0;
+	color: red;
+    line-height: 50px;   
+    width:200px;
+    transition: .8s;
+    opacity: .5;
+}
+
+.pbj dl dt img{
+				vertical-align:middle;}
+.pbj dl dt span{width:0;
+				height:163px;
+				display:inline-block;
+				vertical-align:middle;}
+.pbj dl dd{padding-left:20px;}
+.pbj dl dd a p{font-size:12px;
+				line-height:26px;
+				color:#6a6667;}
+.pbj dl dd a strong{line-height:44px;
+					color:#c90d1b;}
